@@ -14,6 +14,12 @@
 		12822D232672004100D1F852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12822D212672004100D1F852 /* LaunchScreen.storyboard */; };
 		12822D2E2672004100D1F852 /* demo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D2D2672004100D1F852 /* demo1Tests.swift */; };
 		12822D392672004100D1F852 /* demo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D382672004100D1F852 /* demo1UITests.swift */; };
+		12822D482672008C00D1F852 /* FFTimerPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D472672008C00D1F852 /* FFTimerPanelView.swift */; };
+		12822D4A2672009F00D1F852 /* FFPanelPartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D492672009F00D1F852 /* FFPanelPartView.swift */; };
+		12822D4C267200AD00D1F852 /* FFNumberCurlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D4B267200AD00D1F852 /* FFNumberCurlView.swift */; };
+		12822D512672077300D1F852 /* FFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D502672077300D1F852 /* FFView.swift */; };
+		12822D53267207B100D1F852 /* FFTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D52267207B100D1F852 /* FFTimer.swift */; };
+		12822D55267207D900D1F852 /* FFStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12822D54267207D900D1F852 /* FFStoreHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		12822D342672004100D1F852 /* demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12822D382672004100D1F852 /* demo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo1UITests.swift; sourceTree = "<group>"; };
 		12822D3A2672004100D1F852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12822D472672008C00D1F852 /* FFTimerPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTimerPanelView.swift; sourceTree = "<group>"; };
+		12822D492672009F00D1F852 /* FFPanelPartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFPanelPartView.swift; sourceTree = "<group>"; };
+		12822D4B267200AD00D1F852 /* FFNumberCurlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFNumberCurlView.swift; sourceTree = "<group>"; };
+		12822D502672077300D1F852 /* FFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFView.swift; sourceTree = "<group>"; };
+		12822D52267207B100D1F852 /* FFTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTimer.swift; sourceTree = "<group>"; };
+		12822D54267207D900D1F852 /* FFStoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFStoreHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,8 @@
 		12822D172672003F00D1F852 /* demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				12822D4D2672073200D1F852 /* General */,
+				12822D462672006800D1F852 /* TimePanel */,
 				12822D182672003F00D1F852 /* AppDelegate.swift */,
 				12822D1A2672003F00D1F852 /* ViewController.swift */,
 				12822D1C2672003F00D1F852 /* Main.storyboard */,
@@ -123,6 +137,26 @@
 				12822D3A2672004100D1F852 /* Info.plist */,
 			);
 			path = demo1UITests;
+			sourceTree = "<group>";
+		};
+		12822D462672006800D1F852 /* TimePanel */ = {
+			isa = PBXGroup;
+			children = (
+				12822D472672008C00D1F852 /* FFTimerPanelView.swift */,
+				12822D492672009F00D1F852 /* FFPanelPartView.swift */,
+				12822D4B267200AD00D1F852 /* FFNumberCurlView.swift */,
+			);
+			name = TimePanel;
+			sourceTree = "<group>";
+		};
+		12822D4D2672073200D1F852 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				12822D502672077300D1F852 /* FFView.swift */,
+				12822D52267207B100D1F852 /* FFTimer.swift */,
+				12822D54267207D900D1F852 /* FFStoreHelper.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +291,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				12822D1B2672003F00D1F852 /* ViewController.swift in Sources */,
+				12822D482672008C00D1F852 /* FFTimerPanelView.swift in Sources */,
+				12822D512672077300D1F852 /* FFView.swift in Sources */,
+				12822D53267207B100D1F852 /* FFTimer.swift in Sources */,
+				12822D4A2672009F00D1F852 /* FFPanelPartView.swift in Sources */,
 				12822D192672003F00D1F852 /* AppDelegate.swift in Sources */,
+				12822D4C267200AD00D1F852 /* FFNumberCurlView.swift in Sources */,
+				12822D55267207D900D1F852 /* FFStoreHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
